@@ -1,19 +1,31 @@
-<div class="container">
-  <div class="titles mt-5 mb-4">
-    <h1 class="title is-1 mb-1">痩せよう（一時的に）</h1>
-    <h2 class="title is-3 mb-5">話題の（多分）BREATHDIET</h2>
-  </div>
+<div class="top">
+    <div class="text-center">
+        <div class="titles">
+            <h4>コロナ禍で出てしまったそのおなか</h4>
+            <%= image_tag "diet_before_man.png", size: 700%>
+            <p class="title">つらいですよね！！！！！</p>
+        </div>
+    
+        <div>お腹が出できたら…</div>
+    
+    </br>
+    
+        <ul class="list-unstyled">
+            <li>体が重い…</li>
+            <li>下が見えない…</li>
+            <li>服が着れない…etc</li>
+            </br>
+            <h2>一瞬だけ(Fake)スリムになっちゃいましょう！</h2>
+        </ul>
+    
+        
 
-  <%#= image_tag 'top.png', size: "300x300" %>
+    </br>
 
-  <div class="top-menu">
-    <%= link_to 'タイトル', "#", class: "button is-large m-4" %><br>
-    <%= link_to 'title', "#", class: "button is-large" %>
-  </div>
-
-  <ul class="policy mt-6 mb-5">
-    <li><%= link_to "利用規約","#" %><li>
-    <li><%= link_to "プライバシーポリシー", "#" %><li>
-    <li><%= link_to "お問い合わせ", "#" %></li>
-  </ul>
+        <p>breath（息）を吐くことで一瞬（嘘の）スリムな体を拝みましょう!</br>
+        ※本当に痩せるわけではありません。あくまでFake（嘘）ですのでご了承ください。</p>
+        <%= link_to "一瞬(fake)痩せる", action_path ,data: {"turbolinks" => false}, class: "btn btn-info btn-lg"%>
+        
+    </div>
 </div>
+
