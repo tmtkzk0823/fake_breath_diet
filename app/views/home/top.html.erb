@@ -1,8 +1,9 @@
-<div class="container">
+<div class="top">
     <div class="text-center">
-        <div class="titles mt-5 mb-4">
-            <h5>コロナ禍で出てしまったそのおなか</h5>
-            <h2>一時だけスリム(fake)になっちゃいましょう！</h2>
+        <div class="titles">
+            <h4>コロナ禍で出てしまったそのおなか</h4>
+            <%= image_tag "diet_before_man.png", size: 700%>
+            <p class="title">つらいですよね！！！！！</p>
         </div>
     
         <div>お腹が出できたら…</div>
@@ -14,15 +15,17 @@
             <li>下が見えない…</li>
             <li>服が着れない…etc</li>
             </br>
-            <li>これらのこと…………</li>
+            <h2>一瞬だけ(Fake)スリムになっちゃいましょう！</h2>
         </ul>
     
-        <p class="title">つらいですよね！！！！！</p>
+        
 
     </br>
 
-        <p>breath（息）を吐くことで一瞬嘘のスリムな体を拝みましょう!</p>
-        <%= link_to "一瞬(fake)痩せる", action_path , class: "btn btn-warning" %>
+        <p>breath（息）を吐くことで一瞬（嘘の）スリムな体を拝みましょう!</br>
+        ※本当に痩せるわけではありません。あくまでFake（嘘）ですのでご了承ください。</p>
+        <%= link_to "一瞬(fake)痩せる", action_path ,data: {"turbolinks" => false}, class: "btn btn-info btn-lg"%>
+        
     </div>
 </div>
 

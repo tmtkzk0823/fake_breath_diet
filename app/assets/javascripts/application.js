@@ -23,4 +23,5 @@
 //= require turbolinks
 
 //= require timer
-
+//= require action
+//= require btn

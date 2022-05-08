@@ -1,9 +1,17 @@
-
-<!-----タイマーの3分を表示------------------------------------------>
+<div class="top">    
     <div class="text-center">
-            <p id="default">10</p>
-<!-----スタートボタンを表示----------------------------------------->
-            <button id="start">スタート</button>
-<!-----ストップボタンを表示----------------------------------------->
-            <%#<button id="stop">ストップ</button>%>
+        <p class=point>火を消す勢いで息を10秒間吐いてください</br>※口をすぼめると効果がますかも？</p>
+        <div class="container">
+            <%= image_tag "fire.png", size: '300x300', class: 'fire'%>
+<!--           ---タイマーの10秒を表示------------------------------------------>    
+            <div class="number">
+                <p id="default">10</p>
+            </div>
+            <div id="set"></div>
+<!--           ---スタートボタンを表示----------------------------------------->
+            <div class="btn btn-warning btn-lg" id="btn">
+                <div id="start">スタート</div>
+            </div>
+        </div>
     </div>
+</div>
